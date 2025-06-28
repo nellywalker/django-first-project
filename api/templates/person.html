@@ -1,0 +1,9 @@
+{% extends "base.html"%}
+{% block title %}List des personnes{% endblock %}
+{% block content %}
+<h1>List des personnes</h1>
+{% for person in persons %}
+    Nom : {{person.first_name }} Prenom :{{person.last_name }}
+    <br>
+{% endfor %}
+{% endblock %}

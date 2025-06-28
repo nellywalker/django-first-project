@@ -1,0 +1,56 @@
+# === PYTHON / DJANGO ===
+__pycache__/
+*.py[cod]
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Base de données locale (SQLite)
+*.sqlite3
+db.sqlite3
+
+# Fichiers d'environnement
+.env
+.env.*
+
+# Dossiers générés par Django
+staticfiles/
+media/
+*.mo
+
+# Migrations compilées automatiquement (facultatif si tu veux les regénérer)
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Cache & coverage
+.cache/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Outils de test ou de build
+.tox/
+.nox/
+dist/
+build/
+develop-eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# VSCode / PyCharm / autres éditeurs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
